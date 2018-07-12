@@ -1,4 +1,16 @@
-html{	
+html,body{	
 	background-color: #6abcba;
+}
+#right,#left{
+	width:20%;
 	background-image: url("marco.png");
+	height:100vh;
+	background-repeat: repeat-y;
+	background-size: contain;
+	float:left;
+}
+#center{
+	float: left;
+	min-width: 60%;
+	text-align:center;
 }
