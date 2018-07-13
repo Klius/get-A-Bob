@@ -1,16 +1,59 @@
+#bob-title{
+	margin-top:8%;
+}
+#bob-img{
+	width:15%;
+}
+#bob-desc{
+	
+}
 html,body{	
 	background-color: #6abcba;
 }
 #right,#left{
-	width:20%;
+	width:10%;
 	background-image: url("marco.png");
 	height:100vh;
+	margin-top:-10px;
 	background-repeat: repeat-y;
-	background-size: contain;
+	background-size: contain; 
 	float:left;
 }
 #center{
 	float: left;
-	min-width: 60%;
+	min-width: 80%;
 	text-align:center;
+}
+#bobby-stuff,#cover{
+	position:absolute;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+#bobby-stuff{
+	z-index: 1;
+	background-image: url('marco-bob.png');
+	background-repeat: no-repeat;
+	background-position-x: center;
+	height: 90%;
+	text-align: center;
+	/*! background-size: cover; */
+}
+#cover{
+	z-index: 2;
+	background-image: url('marco-bob-cover.png');
+	background-repeat: no-repeat;
+	background-position-x: center;
+	height: 80%;
+	transform-origin: top;
+}
+.coverAnim{
+	animation-name:opencover;
+	animation-duration:2s;
+	animation-fill-mode: forwards;
+}
+@keyframes opencover{
+    0%   {transform:rotateX(0deg);}
+	99%  {transform:rotateX(90deg);}
+    100% {display:none;transform:rotateX(90deg);}
 }
