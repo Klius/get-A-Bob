@@ -13,6 +13,6 @@ function chooseBob(){
 }
 function rellenaPagina(BOB){
 	document.getElementById("bob-title").innerHTML=BOB.title;
-	document.getElementById("bob-desc").innerHTML=BOB.description;
+	//document.getElementById("bob-desc").innerHTML=BOB.description;
 	document.getElementById("bob-img").src = 'bobs/img/'+BOB.img;
 }

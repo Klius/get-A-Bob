@@ -2,7 +2,9 @@
 	margin-top:8%;
 }
 #bob-img{
-	width:15%;
+	width: 15%;
+	border-style: dotted;
+	border-width: 4px;
 }
 #bob-desc{
 	
@@ -29,13 +31,13 @@ html,body{
 	margin-left: auto;
 	margin-right: auto;
 	width: 80%;
+	height: 62%;
 }
 #bobby-stuff{
 	z-index: 1;
 	background-image: url('marco-bob.png');
 	background-repeat: no-repeat;
 	background-position-x: center;
-	height: 90%;
 	text-align: center;
 	/*! background-size: cover; */
 }
@@ -44,7 +46,7 @@ html,body{
 	background-image: url('marco-bob-cover.png');
 	background-repeat: no-repeat;
 	background-position-x: center;
-	height: 80%;
+	
 	transform-origin: top;
 }
 .coverAnim{
@@ -56,4 +58,7 @@ html,body{
     0%   {transform:rotateX(0deg);}
 	99%  {transform:rotateX(90deg);}
     100% {display:none;transform:rotateX(90deg);}
+}
+#logo{
+	width:25%
 }
