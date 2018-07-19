@@ -12,5 +12,45 @@ BOBBYS = [
 	{
 		"title":"DipuBob",
 		"img":"dipubob.jpg"
+	},
+	{
+		"title":"Bobobob",
+		"img":"bobobob.jpg"
+	},
+	{
+	  "title":"Bob de lucia",
+    "description":"",
+    "img":"bobdelucia.jpg",
+    
+	},
+	{
+	  "title":"Bob Ballet",
+    "description":"",
+    "img":"bobycolgao.jpg",
+    
+	},
+	{
+	  "title":"Bobby Piscinas",
+    "description":"",
+    "img":"bobypiscinas.jpg",
+    
+	},
+	{
+	  "title":"Post-BOB",
+    "description":"",
+    "img":"postbob.jpg",
+    
+	},
+	{
+	  "title":"Bob Proletario",
+    "description":"",
+    "img":"prolebob.jpg",
+    
+	},
+	{
+	  "title":"TrapiBob",
+    "description":"",
+    "img":"trapibob.jpg",
+    
 	}
 ]

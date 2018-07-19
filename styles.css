@@ -1,8 +1,11 @@
+@font-face {
+    font-family: 'vic-font'; /*a name to be used later*/
+    src: url('font/vic-font.ttf'); /*URL to font*/
+}
 #bob-title{
 	margin-top:8%;
 }
 #bob-img{
-	width: 15%;
 	border-style: dotted;
 	border-width: 4px;
 }
@@ -11,6 +14,7 @@
 }
 html,body{	
 	background-color: #6abcba;
+	font-family:"vic-font";
 }
 #right,#left{
 	width:10%;
