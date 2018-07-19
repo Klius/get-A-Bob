@@ -2,56 +2,9 @@
     font-family: 'vic-font'; /*a name to be used later*/
     src: url('font/vic-font.ttf'); /*URL to font*/
 }
-#bob-title{
-	margin-top:8%;
-}
-#bob-img{
-	border-style: dotted;
-	border-width: 4px;
-}
-#bob-desc{
-	
-}
 html,body{	
 	background-color: #6abcba;
 	font-family:"vic-font";
-}
-#right,#left{
-	width:10%;
-	background-image: url("marco.png");
-	height:100vh;
-	margin-top:-10px;
-	background-repeat: repeat-y;
-	background-size: contain; 
-	float:left;
-}
-#center{
-	float: left;
-	min-width: 80%;
-	text-align:center;
-}
-#bobby-stuff,#cover{
-	position:absolute;
-	margin-left: auto;
-	margin-right: auto;
-	width: 80%;
-	height: 62%;
-}
-#bobby-stuff{
-	z-index: 1;
-	background-image: url('marco-bob.png');
-	background-repeat: no-repeat;
-	background-position-x: center;
-	text-align: center;
-	/*! background-size: cover; */
-}
-#cover{
-	z-index: 2;
-	background-image: url('marco-bob-cover.png');
-	background-repeat: no-repeat;
-	background-position-x: center;
-	
-	transform-origin: top;
 }
 .coverAnim{
 	animation-name:opencover;
@@ -64,5 +17,81 @@ html,body{
     100% {display:none;transform:rotateX(90deg);}
 }
 #logo{
-	width:25%
+	width:50%
+}
+#center{
+	text-align:center;
+}
+#bob-title{
+		margin-top:15%;
+		font-size:20px;
+	}
+#bob-img{
+	border-style: dotted;
+	border-width: 2px;
+	width:30%;
+}
+#bobby-stuff,#cover{
+	position:absolute;
+	margin-left:auto;
+	margin-right:auto;
+	background-size:100% 100%;
+	height:60%;
+	width:96%;
+}
+
+#bobby-stuff{
+		z-index: 1;
+		background-image: url('marco-bob.png');
+		background-repeat: no-repeat;
+		background-position-x: center;
+	}
+	#cover{
+		z-index: 2;
+		background-image: url('marco-bob-cover.png');
+		background-repeat: no-repeat;
+		background-position-x: center;
+		transform-origin: top;
+	}
+
+@media only screen and (min-width: 768px) {
+
+	#bob-title{
+		margin-top:8%;
+		font-size:40px;
+	}
+	#bob-img{
+		border-style: dotted;
+		border-width: 4px;
+		width:auto;
+	}
+	#bob-desc{
+
+	}
+
+	#right,#left{
+		width:10%;
+		background-image: url("marco.png");
+		height:100vh;
+		margin-top:-10px;
+		background-repeat: repeat-y;
+		background-size: contain; 
+		float:left;
+	}
+	#center{
+		float: left;
+		min-width: 80%;
+		text-align:center;
+	}
+	#bobby-stuff,#cover{
+		position:absolute;
+		margin-left: auto;
+		margin-right: auto;
+		width: 80%;
+		height: 62%;
+		background-size:contain;
+	}
+	#logo{
+		width:25%
+	}
 }
