@@ -8,7 +8,7 @@ html,body{
 }
 .coverAnim{
 	animation-name:opencover;
-	animation-duration:2s;
+	animation-duration:1s;
 	animation-fill-mode: forwards;
 }
 @keyframes opencover{
@@ -29,7 +29,8 @@ html,body{
 #bob-img{
 	border-style: dotted;
 	border-width: 2px;
-	width:30%;
+	max-width:160px;
+	max-height:150px;
 }
 #bobby-stuff,#cover{
 	position:absolute;
@@ -54,16 +55,23 @@ html,body{
 		transform-origin: top;
 	}
 
+/*********************************************************************************
+*
+*			PANTALLA GRANDER
+*
+**********************************************************************************/
 @media only screen and (min-width: 768px) {
 
 	#bob-title{
-		margin-top:8%;
-		font-size:40px;
+		margin-top: 7%;
+		font-size: 40px;
+		margin-bottom: 0px;
 	}
 	#bob-img{
 		border-style: dotted;
 		border-width: 4px;
-		width:auto;
+		max-width:100%;
+		max-height:100%;
 	}
 	#bob-desc{
 
