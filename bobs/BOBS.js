@@ -24,7 +24,7 @@ BOBBYS = [
     
 	},
 	{
-	  "title":"Bob Ballet",
+	  "title":"Ballet Bob",
     "description":"",
     "img":"bobycolgao.jpg",
     
@@ -51,6 +51,30 @@ BOBBYS = [
 	  "title":"TrapiBob",
     "description":"",
     "img":"trapibob.jpg",
+    
+	},
+	{
+	  "title":"Andino Bob",
+    "description":"",
+    "img":"andinobob.jpg",
+    
+	},
+	{
+	  "title":"Banana Bob",
+    "description":"",
+    "img":"bananabob.jpg",
+    
+	},
+	{
+	  "title":"Monkey Bob",
+    "description":"",
+    "img":"monkeybob.jpg",
+    
+	},
+	{
+	  "title":"Clown Bob",
+    "description":"",
+    "img":"clownbob.jpg",
     
 	}
 ]
