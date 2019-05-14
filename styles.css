@@ -6,6 +6,9 @@ html,body{
 	background-color: #6abcba;
 	font-family:"vic-font";
 }
+#logo{
+	width:50%;
+}
 .coverAnim{
 	animation-name:opencover;
 	animation-duration:1s;
